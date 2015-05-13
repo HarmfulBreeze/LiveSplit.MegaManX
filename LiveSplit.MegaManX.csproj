@@ -41,19 +41,17 @@
   <ItemGroup>
     <Compile Include="ASLState.cs" />
     <Compile Include="ASLValueDefinition.cs" />
+    <Compile Include="DeepPtr.cs" />
+    <Compile Include="GameVersion.cs" />
     <Compile Include="MegaManXComponent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Components\LiveSplit.ScriptableAutoSplit\LiveSplit.ScriptableAutoSplit.csproj">
-      <Project>{56e9d96b-5944-4c2e-876b-cba44b1465ac}</Project>
-      <Name>LiveSplit.ScriptableAutoSplit</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\LiveSplit.Core\LiveSplit.Core.csproj">
+    <ProjectReference Include="..\..\..\..\LiveSplit.Core\LiveSplit.Core.csproj">
       <Project>{6de847db-20a3-4848-aeee-1b4364aecdfb}</Project>
       <Name>LiveSplit.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\UpdateManager\UpdateManager.csproj">
+    <ProjectReference Include="..\..\..\..\UpdateManager\UpdateManager.csproj">
       <Project>{56dea3a0-2eb7-493b-b50f-a5e3aa8ae52a}</Project>
       <Name>UpdateManager</Name>
     </ProjectReference>
